@@ -25,7 +25,7 @@ Public Class MainWindow
         InfoLabel.Text = "更新文件列表中"
 
         If dlg.ShowDialog() = DialogResult.Cancel Then
-            MessageBox.Show("没有添加任何文件")
+            'MessageBox.Show("没有添加任何文件")
         Else
             fileList.AddFiles(dlg.FileNames)
         End If
@@ -110,7 +110,7 @@ Public Class MainWindow
         End If
 
         '检查程序是否存在
-        If Not My.Computer.FileSystem.FileExists(".\DF1.51CLI.exe") Then
+        If Not My.Computer.FileSystem.FileExists(Application.StartupPath.ToString() + "\DF1.51CLI.exe") Then
             MessageBox.Show("找不到依赖程序 DF1.51CLI.exe")
             Exit Sub
         End If
@@ -151,5 +151,22 @@ Public Class MainWindow
         Else
             SettingButton.Enabled = False
         End If
+    End Sub
+
+    Private Sub MainWindow_DragDrop(sender As Object, e As DragEventArgs) Handles MyBase.DragDrop
+
+        Dim filePath() As String = e.Data.GetData(DataFormats.FileDrop)
+        fileList.AddFiles(filePath)
+        If fileList.GetFileNum() > 0 Then
+            FileListButton.Enabled = True
+            FileListButton.Text = "已打开(" + fileList.GetFileNum().ToString + ")"
+        Else
+            FileListButton.Enabled = False
+            FileListButton.Text = "未打开任何文件"
+        End If
+    End Sub
+
+    Private Sub MainWindow_DragEnter(sender As Object, e As DragEventArgs) Handles MyBase.DragEnter
+        e.Effect = DragDropEffects.All
     End Sub
 End Class

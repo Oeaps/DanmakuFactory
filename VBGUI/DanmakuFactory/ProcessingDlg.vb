@@ -129,7 +129,7 @@ Public Class ProcessingDlg
                 arg += " --statmode " + config.ToStatString
             End If
 
-            Proc.StartInfo.FileName = ".\DF1.51CLI.exe"
+            Proc.StartInfo.FileName = Application.StartupPath.ToString() + "\DF1.51CLI.exe"
             Proc.StartInfo.RedirectStandardError = True
             Proc.StartInfo.UseShellExecute = False
             Proc.StartInfo.CreateNoWindow = True

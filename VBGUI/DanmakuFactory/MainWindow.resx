@@ -122,10 +122,10 @@
     <value>微软雅黑, 9pt</value>
   </data>
   <data name="StartButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 251</value>
+    <value>337, 363</value>
   </data>
   <data name="StartButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 32</value>
+    <value>104, 46</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="StartButton.TabIndex" type="System.Int32, mscorlib">
@@ -154,13 +154,13 @@
     <value>NoControl</value>
   </data>
   <data name="FileListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 19</value>
+    <value>275, 34</value>
   </data>
   <data name="FileListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="FileListButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
+    <value>144, 42</value>
   </data>
   <data name="FileListButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -187,10 +187,10 @@
     <value>缺省</value>
   </data>
   <data name="inputTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 63</value>
+    <value>125, 97</value>
   </data>
   <data name="inputTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 28</value>
+    <value>294, 32</value>
   </data>
   <data name="inputTemplate.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -211,13 +211,13 @@
     <value>微软雅黑, 9pt</value>
   </data>
   <data name="FileOpenButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 19</value>
+    <value>125, 34</value>
   </data>
   <data name="FileOpenButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="FileOpenButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 30</value>
+    <value>126, 42</value>
   </data>
   <data name="FileOpenButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -244,10 +244,10 @@
     <value>微软雅黑, 10.5pt</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
+    <value>7, 97</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>96, 28</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -274,10 +274,10 @@
     <value>微软雅黑, 10.5pt</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 22</value>
+    <value>7, 40</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>96, 28</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -304,7 +304,7 @@
     <value>12, 14</value>
   </data>
   <data name="InputGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 100</value>
+    <value>429, 151</value>
   </data>
   <data name="InputGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -334,16 +334,16 @@
     <value>NoControl</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 27</value>
+    <value>7, 43</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 24</value>
+    <value>96, 28</value>
   </data>
   <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
-    <value>输出文件夹(留空表示源文件目录)</value>
+    <value>输出位置</value>
   </data>
   <data name="&gt;&gt;Label3.Name" xml:space="preserve">
     <value>Label3</value>
@@ -361,10 +361,10 @@
     <value>微软雅黑, 9pt</value>
   </data>
   <data name="OutputDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 58</value>
+    <value>125, 43</value>
   </data>
   <data name="OutputDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>202, 31</value>
   </data>
   <data name="OutputDir.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -388,10 +388,10 @@
     <value>NoControl</value>
   </data>
   <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 58</value>
+    <value>347, 32</value>
   </data>
   <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 28</value>
+    <value>72, 52</value>
   </data>
   <data name="Button2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -421,10 +421,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 91</value>
+    <value>7, 114</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>96, 28</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -457,10 +457,10 @@
     <value>JSON</value>
   </data>
   <data name="OutputTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 91</value>
+    <value>125, 114</value>
   </data>
   <data name="OutputTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 28</value>
+    <value>202, 32</value>
   </data>
   <data name="OutputTemplate.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -478,16 +478,16 @@
     <value>1</value>
   </data>
   <data name="SettingButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 7.8pt</value>
+    <value>微软雅黑, 9pt</value>
   </data>
   <data name="SettingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SettingButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 89</value>
+    <value>347, 104</value>
   </data>
   <data name="SettingButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 28</value>
+    <value>72, 51</value>
   </data>
   <data name="SettingButton.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -511,10 +511,10 @@
     <value>微软雅黑, 10.8pt</value>
   </data>
   <data name="OutputGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 120</value>
+    <value>12, 171</value>
   </data>
   <data name="OutputGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 125</value>
+    <value>429, 175</value>
   </data>
   <data name="OutputGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -544,10 +544,10 @@
     <value>NoControl</value>
   </data>
   <data name="InfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 255</value>
+    <value>19, 371</value>
   </data>
   <data name="InfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
+    <value>54, 28</value>
   </data>
   <data name="InfoLabel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -570,8 +570,14 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>144, 144</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>318, 288</value>
+    <value>449, 424</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1704,9 +1710,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>336, 335</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>336, 335</value>
