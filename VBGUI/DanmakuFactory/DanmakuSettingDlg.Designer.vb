@@ -160,7 +160,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_Rep_CheckBox.AutoSize = True
         Me.BLK_Rep_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_Rep_CheckBox.Location = New System.Drawing.Point(296, 280)
+        Me.BLK_Rep_CheckBox.Location = New System.Drawing.Point(297, 283)
         Me.BLK_Rep_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_Rep_CheckBox.Name = "BLK_Rep_CheckBox"
         Me.BLK_Rep_CheckBox.Size = New System.Drawing.Size(108, 28)
@@ -172,7 +172,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_Special_CheckBox.AutoSize = True
         Me.BLK_Special_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_Special_CheckBox.Location = New System.Drawing.Point(15, 280)
+        Me.BLK_Special_CheckBox.Location = New System.Drawing.Point(16, 283)
         Me.BLK_Special_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_Special_CheckBox.Name = "BLK_Special_CheckBox"
         Me.BLK_Special_CheckBox.Size = New System.Drawing.Size(72, 28)
@@ -184,7 +184,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_Color_CheckBox.AutoSize = True
         Me.BLK_Color_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_Color_CheckBox.Location = New System.Drawing.Point(151, 280)
+        Me.BLK_Color_CheckBox.Location = New System.Drawing.Point(152, 283)
         Me.BLK_Color_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_Color_CheckBox.Name = "BLK_Color_CheckBox"
         Me.BLK_Color_CheckBox.Size = New System.Drawing.Size(90, 28)
@@ -196,7 +196,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_Btm_CheckBox.AutoSize = True
         Me.BLK_Btm_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_Btm_CheckBox.Location = New System.Drawing.Point(442, 239)
+        Me.BLK_Btm_CheckBox.Location = New System.Drawing.Point(443, 242)
         Me.BLK_Btm_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_Btm_CheckBox.Name = "BLK_Btm_CheckBox"
         Me.BLK_Btm_CheckBox.Size = New System.Drawing.Size(108, 28)
@@ -208,7 +208,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_Top_CheckBox.AutoSize = True
         Me.BLK_Top_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_Top_CheckBox.Location = New System.Drawing.Point(296, 239)
+        Me.BLK_Top_CheckBox.Location = New System.Drawing.Point(297, 242)
         Me.BLK_Top_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_Top_CheckBox.Name = "BLK_Top_CheckBox"
         Me.BLK_Top_CheckBox.Size = New System.Drawing.Size(108, 28)
@@ -220,7 +220,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_L2R_CheckBox.AutoSize = True
         Me.BLK_L2R_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_L2R_CheckBox.Location = New System.Drawing.Point(151, 239)
+        Me.BLK_L2R_CheckBox.Location = New System.Drawing.Point(152, 242)
         Me.BLK_L2R_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_L2R_CheckBox.Name = "BLK_L2R_CheckBox"
         Me.BLK_L2R_CheckBox.Size = New System.Drawing.Size(108, 28)
@@ -232,7 +232,7 @@ Partial Class DanmakuSettingDlg
         '
         Me.BLK_R2L_CheckBox.AutoSize = True
         Me.BLK_R2L_CheckBox.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.BLK_R2L_CheckBox.Location = New System.Drawing.Point(15, 239)
+        Me.BLK_R2L_CheckBox.Location = New System.Drawing.Point(16, 242)
         Me.BLK_R2L_CheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BLK_R2L_CheckBox.Name = "BLK_R2L_CheckBox"
         Me.BLK_R2L_CheckBox.Size = New System.Drawing.Size(108, 28)

@@ -35,29 +35,31 @@ Partial Class ProcessingDlg
         '
         'UtilButton
         '
-        Me.UtilButton.Location = New System.Drawing.Point(400, 276)
-        Me.UtilButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.UtilButton.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.UtilButton.Location = New System.Drawing.Point(450, 331)
+        Me.UtilButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.UtilButton.Name = "UtilButton"
-        Me.UtilButton.Size = New System.Drawing.Size(94, 30)
+        Me.UtilButton.Size = New System.Drawing.Size(106, 36)
         Me.UtilButton.TabIndex = 0
         Me.UtilButton.Text = "确定"
         '
         'ViewErrMsgButton
         '
-        Me.ViewErrMsgButton.Location = New System.Drawing.Point(284, 276)
-        Me.ViewErrMsgButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.ViewErrMsgButton.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.ViewErrMsgButton.Location = New System.Drawing.Point(320, 331)
+        Me.ViewErrMsgButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ViewErrMsgButton.Name = "ViewErrMsgButton"
-        Me.ViewErrMsgButton.Size = New System.Drawing.Size(94, 30)
+        Me.ViewErrMsgButton.Size = New System.Drawing.Size(106, 36)
         Me.ViewErrMsgButton.TabIndex = 1
         Me.ViewErrMsgButton.Text = "查看报错"
         Me.ViewErrMsgButton.UseVisualStyleBackColor = True
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(35, 232)
-        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ProgressBar1.Location = New System.Drawing.Point(39, 278)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(459, 26)
+        Me.ProgressBar1.Size = New System.Drawing.Size(516, 31)
         Me.ProgressBar1.Step = 1
         Me.ProgressBar1.TabIndex = 1
         '
@@ -65,11 +67,11 @@ Partial Class ProcessingDlg
         '
         Me.StatusLabel.AutoSize = True
         Me.StatusLabel.Font = New System.Drawing.Font("微软雅黑 Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.StatusLabel.Location = New System.Drawing.Point(28, 24)
+        Me.StatusLabel.Location = New System.Drawing.Point(32, 29)
         Me.StatusLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.StatusLabel.MinimumSize = New System.Drawing.Size(0, 20)
+        Me.StatusLabel.MinimumSize = New System.Drawing.Size(0, 24)
         Me.StatusLabel.Name = "StatusLabel"
-        Me.StatusLabel.Size = New System.Drawing.Size(107, 39)
+        Me.StatusLabel.Size = New System.Drawing.Size(128, 46)
         Me.StatusLabel.TabIndex = 2
         Me.StatusLabel.Text = "未开始"
         '
@@ -77,12 +79,12 @@ Partial Class ProcessingDlg
         '
         Me.LoadingLabel.AutoSize = True
         Me.LoadingLabel.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LoadingLabel.Location = New System.Drawing.Point(31, 167)
+        Me.LoadingLabel.Location = New System.Drawing.Point(35, 200)
         Me.LoadingLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LoadingLabel.MaximumSize = New System.Drawing.Size(460, 0)
-        Me.LoadingLabel.MinimumSize = New System.Drawing.Size(0, 10)
+        Me.LoadingLabel.MaximumSize = New System.Drawing.Size(518, 0)
+        Me.LoadingLabel.MinimumSize = New System.Drawing.Size(0, 12)
         Me.LoadingLabel.Name = "LoadingLabel"
-        Me.LoadingLabel.Size = New System.Drawing.Size(147, 20)
+        Me.LoadingLabel.Size = New System.Drawing.Size(177, 24)
         Me.LoadingLabel.TabIndex = 3
         Me.LoadingLabel.Text = "正在转换 FILENAME"
         '
@@ -90,11 +92,11 @@ Partial Class ProcessingDlg
         '
         Me.DoneLabel.AutoSize = True
         Me.DoneLabel.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.DoneLabel.Location = New System.Drawing.Point(31, 73)
+        Me.DoneLabel.Location = New System.Drawing.Point(35, 88)
         Me.DoneLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.DoneLabel.MinimumSize = New System.Drawing.Size(0, 10)
+        Me.DoneLabel.MinimumSize = New System.Drawing.Size(0, 12)
         Me.DoneLabel.Name = "DoneLabel"
-        Me.DoneLabel.Size = New System.Drawing.Size(67, 20)
+        Me.DoneLabel.Size = New System.Drawing.Size(80, 24)
         Me.DoneLabel.TabIndex = 4
         Me.DoneLabel.Text = "已完成 0"
         '
@@ -102,11 +104,11 @@ Partial Class ProcessingDlg
         '
         Me.TotalLabel.AutoSize = True
         Me.TotalLabel.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TotalLabel.Location = New System.Drawing.Point(31, 105)
+        Me.TotalLabel.Location = New System.Drawing.Point(35, 126)
         Me.TotalLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.TotalLabel.MinimumSize = New System.Drawing.Size(0, 10)
+        Me.TotalLabel.MinimumSize = New System.Drawing.Size(0, 12)
         Me.TotalLabel.Name = "TotalLabel"
-        Me.TotalLabel.Size = New System.Drawing.Size(52, 20)
+        Me.TotalLabel.Size = New System.Drawing.Size(62, 24)
         Me.TotalLabel.TabIndex = 5
         Me.TotalLabel.Text = "总计 0"
         '
@@ -114,11 +116,11 @@ Partial Class ProcessingDlg
         '
         Me.FailedLabel.AutoSize = True
         Me.FailedLabel.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.FailedLabel.Location = New System.Drawing.Point(31, 137)
+        Me.FailedLabel.Location = New System.Drawing.Point(35, 164)
         Me.FailedLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.FailedLabel.MinimumSize = New System.Drawing.Size(0, 10)
+        Me.FailedLabel.MinimumSize = New System.Drawing.Size(0, 12)
         Me.FailedLabel.Name = "FailedLabel"
-        Me.FailedLabel.Size = New System.Drawing.Size(52, 20)
+        Me.FailedLabel.Size = New System.Drawing.Size(62, 24)
         Me.FailedLabel.TabIndex = 6
         Me.FailedLabel.Text = "失败 0"
         '
@@ -128,11 +130,11 @@ Partial Class ProcessingDlg
         Me.ClearFileListCheckBox.Checked = True
         Me.ClearFileListCheckBox.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ClearFileListCheckBox.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ClearFileListCheckBox.Location = New System.Drawing.Point(35, 276)
-        Me.ClearFileListCheckBox.Margin = New System.Windows.Forms.Padding(4)
-        Me.ClearFileListCheckBox.MinimumSize = New System.Drawing.Size(0, 12)
+        Me.ClearFileListCheckBox.Location = New System.Drawing.Point(39, 331)
+        Me.ClearFileListCheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ClearFileListCheckBox.MinimumSize = New System.Drawing.Size(0, 14)
         Me.ClearFileListCheckBox.Name = "ClearFileListCheckBox"
-        Me.ClearFileListCheckBox.Size = New System.Drawing.Size(194, 28)
+        Me.ClearFileListCheckBox.Size = New System.Drawing.Size(227, 32)
         Me.ClearFileListCheckBox.TabIndex = 7
         Me.ClearFileListCheckBox.Text = "结束后清空文件列表" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.ClearFileListCheckBox.UseVisualStyleBackColor = True
@@ -140,10 +142,10 @@ Partial Class ProcessingDlg
         'ProcessingDlg
         '
         Me.AcceptButton = Me.UtilButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(529, 360)
+        Me.ClientSize = New System.Drawing.Size(595, 432)
         Me.ControlBox = False
         Me.Controls.Add(Me.UtilButton)
         Me.Controls.Add(Me.DoneLabel)
@@ -155,7 +157,7 @@ Partial Class ProcessingDlg
         Me.Controls.Add(Me.TotalLabel)
         Me.Controls.Add(Me.FailedLabel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "ProcessingDlg"

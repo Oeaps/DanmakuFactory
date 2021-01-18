@@ -152,6 +152,7 @@ Partial Class MainWindow
         Me.Controls.Add(Me.OutputGroupBox)
         Me.Controls.Add(Me.InputGroupBox)
         Me.Controls.Add(Me.StartButton)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "MainWindow"
         Me.InputGroupBox.ResumeLayout(False)
         Me.InputGroupBox.PerformLayout()

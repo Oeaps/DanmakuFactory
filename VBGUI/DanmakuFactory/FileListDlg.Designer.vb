@@ -24,8 +24,8 @@ Partial Class FilesDialog
     Private Sub InitializeComponent()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.FileListBox = New System.Windows.Forms.ListBox()
-        Me.OK_Button = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.OK_Button = New System.Windows.Forms.Button()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -56,29 +56,29 @@ Partial Class FilesDialog
         Me.FileListBox.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.FileListBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FileListBox.FormattingEnabled = True
-        Me.FileListBox.ItemHeight = 14
+        Me.FileListBox.ItemHeight = 21
         Me.FileListBox.Location = New System.Drawing.Point(0, 0)
         Me.FileListBox.Name = "FileListBox"
         Me.FileListBox.Size = New System.Drawing.Size(704, 382)
         Me.FileListBox.TabIndex = 1
         '
-        'OK_Button
-        '
-        Me.OK_Button.Dock = System.Windows.Forms.DockStyle.Right
-        Me.OK_Button.Location = New System.Drawing.Point(643, 0)
-        Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(61, 29)
-        Me.OK_Button.TabIndex = 0
-        Me.OK_Button.Text = "确定"
-        '
         'Button1
         '
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Button1.Location = New System.Drawing.Point(582, 0)
+        Me.Button1.Location = New System.Drawing.Point(563, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(61, 29)
+        Me.Button1.Size = New System.Drawing.Size(70, 29)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "清空"
+        '
+        'OK_Button
+        '
+        Me.OK_Button.Dock = System.Windows.Forms.DockStyle.Right
+        Me.OK_Button.Location = New System.Drawing.Point(633, 0)
+        Me.OK_Button.Name = "OK_Button"
+        Me.OK_Button.Size = New System.Drawing.Size(71, 29)
+        Me.OK_Button.TabIndex = 0
+        Me.OK_Button.Text = "确定"
         '
         'FilesDialog
         '

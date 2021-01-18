@@ -30,7 +30,7 @@
     Public statHistogram As Boolean = False
 
     Public Sub WriteConfig()
-        WriteConfig("./DanamkuFactoryGUIConfig.txt")
+        WriteConfig(Application.StartupPath.ToString() + "\DanmakuFactoryGUIConfig.txt")
     End Sub
 
     Public Sub WriteConfig(fileName As String)
@@ -39,7 +39,7 @@
     End Sub
 
     Public Sub ReadConfig()
-        ReadConfig("./DanamkuFactoryGUIConfig.txt")
+        ReadConfig(Application.StartupPath.ToString() + "\DanmakuFactoryGUIConfig.txt")
     End Sub
 
     Public Sub ReadConfig(fileName As String)

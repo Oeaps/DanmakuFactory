@@ -146,6 +146,93 @@
   <data name="&gt;&gt;StartButton.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;FileListButton.Name" xml:space="preserve">
+    <value>FileListButton</value>
+  </data>
+  <data name="&gt;&gt;FileListButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileListButton.Parent" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;FileListButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;inputTemplate.Name" xml:space="preserve">
+    <value>inputTemplate</value>
+  </data>
+  <data name="&gt;&gt;inputTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputTemplate.Parent" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;inputTemplate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FileOpenButton.Name" xml:space="preserve">
+    <value>FileOpenButton</value>
+  </data>
+  <data name="&gt;&gt;FileOpenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileOpenButton.Parent" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;FileOpenButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="InputGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="InputGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="InputGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 151</value>
+  </data>
+  <data name="InputGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="InputGroupBox.Text" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="&gt;&gt;InputGroupBox.Name" xml:space="preserve">
+    <value>InputGroupBox</value>
+  </data>
+  <data name="&gt;&gt;InputGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="FileListButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
   </data>
@@ -296,33 +383,6 @@
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="InputGroupBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 10.5pt</value>
-  </data>
-  <data name="InputGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 14</value>
-  </data>
-  <data name="InputGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 151</value>
-  </data>
-  <data name="InputGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="InputGroupBox.Text" xml:space="preserve">
-    <value>输入</value>
-  </data>
-  <data name="&gt;&gt;InputGroupBox.Name" xml:space="preserve">
-    <value>InputGroupBox</value>
-  </data>
-  <data name="&gt;&gt;InputGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InputGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;InputGroupBox.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

@@ -35,28 +35,32 @@ Partial Class TextView
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.OK_Button, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(443, 444)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(664, 666)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(76, 27)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(114, 40)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'OK_Button
         '
         Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.OK_Button.Location = New System.Drawing.Point(3, 3)
+        Me.OK_Button.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.OK_Button.Location = New System.Drawing.Point(4, 4)
+        Me.OK_Button.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(70, 21)
+        Me.OK_Button.Size = New System.Drawing.Size(105, 32)
         Me.OK_Button.TabIndex = 0
         Me.OK_Button.Text = "确定"
         '
         'RichTextBox1
         '
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RichTextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.RichTextBox1.Location = New System.Drawing.Point(18, 18)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(504, 426)
+        Me.RichTextBox1.Size = New System.Drawing.Size(756, 639)
         Me.RichTextBox1.TabIndex = 1
         Me.RichTextBox1.Text = ""
         '
@@ -64,22 +68,24 @@ Partial Class TextView
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 448)
+        Me.Label1.Location = New System.Drawing.Point(18, 672)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(275, 20)
+        Me.Label1.Size = New System.Drawing.Size(411, 28)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "此页面无法实时更新，如有需要请重新打开"
         '
         'TextView
         '
         Me.AcceptButton = Me.OK_Button
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(531, 481)
+        Me.ClientSize = New System.Drawing.Size(796, 722)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "TextView"
